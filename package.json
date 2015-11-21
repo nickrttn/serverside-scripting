@@ -2,7 +2,7 @@
   "name": "sss",
   "version": "1.0.0",
   "description": "Express based application for serverside scripting course",
-  "repository": "https://github.com/nickrttn/serverside-scripting",
+  "repository": "git@github.com:nickrttn/serverside-scripting.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
