@@ -1,7 +1,8 @@
 {
   "name": "sss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express based application for serverside scripting course",
+  "repository": "https://github.com/nickrttn/serverside-scripting",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +20,10 @@
   },
   "devDependencies": {
     "browser-sync": "^2.10.0"
+  },
+  "scripts": {
+  	"app": "nodemon ./app.js",
+  	"sync": "browser-sync start --proxy \"localhost:3000\" --directory",
+  	"serve": "npm run app && npm run serve"
   }
 }
